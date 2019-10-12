@@ -1,2 +1,3 @@
 # gaussian_lpcnet
 Gaussian LPCNet vocoder
+Checking ssh connection...
