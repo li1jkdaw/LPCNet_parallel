@@ -1,3 +1,2 @@
 # gaussian_lpcnet
-Gaussian LPCNet vocoder
-Checking ssh connection...
+Speech samples synthesized with Gaussian LPCNet vocoder are posted in this repository.
