@@ -84,6 +84,6 @@ to generate *dump\_data* executable.
 
    -synthesis_net means that you run parallel LPCNet for which splitting frames are detected using a neural network separator.h5;
 
-   -synthesis_smooth means that you run parallel LPCNet with overlapping for which each 10-th frame is splittings frame and two waveforms in each overlapping frame are integrated using linear cross-fading without shift;
+   -synthesis_smooth means that you run parallel LPCNet with overlapping for which each 10-th frame is a splitting frame and two waveforms in each overlapping frame are integrated using linear cross-fading without shift;
 
-   -synthesis_shift means that you run parallel LPCNet with overlapping for which each 10-th frame is splitting frame and two waveforms in each overlapping region are integrated using linear cross-fading with shift.
+   -synthesis_shift means that you run parallel LPCNet with overlapping for which each 10-th frame is a splitting frame and two waveforms in each overlapping region are integrated using linear cross-fading with shift.
