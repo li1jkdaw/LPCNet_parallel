@@ -80,10 +80,14 @@ to generate *dump\_data* executable.
 
    -synthesis_std means that you run original (non-parallel) LPCNet model;
 
-   -synthesis_rule means that you run parallel LPCNet for which splitting frames are detected using a simple energy-based rule;
+   -synthesis_rule means that you run parallel LPCNet for which splitting frames are detected using a simple energy-based rule (EB-splitting);
 
-   -synthesis_net means that you run parallel LPCNet for which splitting frames are detected using a neural network separator.h5;
+   -synthesis_net means that you run parallel LPCNet for which splitting frames are detected using a neural network separator.h5 (NN-splitting);
 
-   -synthesis_smooth means that you run parallel LPCNet with overlapping for which each 10-th frame is a splitting frame and two waveforms in each overlapping frame are integrated using linear cross-fading without shift;
+   -synthesis_smooth means that you run parallel LPCNet with overlapping for which each 10-th frame is a splitting frame and two waveforms in each overlapping frame are integrated using linear cross-fading without shift (XF w/o shift);
 
-   -synthesis_shift means that you run parallel LPCNet with overlapping for which each 10-th frame is a splitting frame and two waveforms in each overlapping region are integrated using linear cross-fading with shift.
+   -synthesis_shift means that you run parallel LPCNet with overlapping for which each 10-th frame is a splitting frame and two waveforms in each overlapping region are integrated using linear cross-fading with shift (XF with shift);
+
+  <audio controls="controls">
+    <source src="mp3/.mp3" type="audio/mp3">
+  </audio>
