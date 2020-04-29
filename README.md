@@ -1,5 +1,3 @@
-# Synthesized Samples
-
 # Samples in English
 
 Non-parallel synthesis:
