@@ -87,3 +87,8 @@ to generate *dump\_data* executable.
    -synthesis_smooth means that you run parallel LPCNet with overlapping for which each 10-th frame is a splitting frame and two waveforms in each overlapping frame are integrated using linear cross-fading without shift (XF w/o shift);
 
    -synthesis_shift means that you run parallel LPCNet with overlapping for which each 10-th frame is a splitting frame and two waveforms in each overlapping region are integrated using linear cross-fading with shift (XF with shift).
+
+<audio controls="controls">
+<source type="audio/mp3" src="mp3/en_1_net.mp3">
+</source>
+</audio>
