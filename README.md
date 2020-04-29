@@ -1,18 +1,3 @@
-<audio controls="controls">
-<source type="audio/mp3" src="mp3/en_1_net.mp3">
-</source>
-</audio>
-
-<audio controls="controls">
-<source type="audio/mp3" src="mp3/en_2_net.mp3">
-</source>
-</audio>
-
-<audio controls="controls">
-<source type="audio/mp3" src="mp3/en_3_net.mp3">
-</source>
-</audio>
-
 # Parallel LPCNet
 
 Low complexity implementation of the WaveRNN-based LPCNet algorithm is described in:
