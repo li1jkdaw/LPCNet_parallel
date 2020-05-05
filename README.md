@@ -57,7 +57,7 @@ to generate *dump\_data* executable.
    cd src
    python train_separator.py --data_dir /path/to/data/directory --log_file /path/to/log/file
    ```
-   Your data directory should consist of three subfolders: "pcms" with pcm training files and empty "tmp" and "feats" folders. Also, you should have your LPCNet vocoder trained and C code built (see next section, part 2) since separator model is trained on records synthesized with LPCNet for which splitting frames allocated at random.
+   Your data directory should consist of three subfolders: "pcms" with pcm training files and empty "tmp" and "feats" folders. Also, you should have your LPCNet vocoder trained and C code built (see next section, part 2) since separator model is trained on records synthesized with LPCNet for which splitting frames are allocated at random.
 
 # Testing a model
 

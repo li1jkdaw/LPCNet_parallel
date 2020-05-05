@@ -172,7 +172,7 @@ float get_loss(const float *features_real, const float *features_fake)
     diff_high = 0.0;
     for (i = NB_BANDS-NUM_HIGH_BANDS_FOR_CLICK; i < NB_BANDS; i++)
     {
-        if (log_energy_fake[i] > log_energy_real[i] && log_energy_fake[i] > 1.01)
+        if (log_energy_fake[i] > log_energy_real[i] && log_energy_real[i] > 1.01)
         {
             float stat = log_energy_fake[i]/log_energy_real[i];
             if (diff_high < stat)
